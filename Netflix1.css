@@ -1,0 +1,280 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:rgba(0,0, 0, 0.7) url("1.jpg");
+    background-blend-mode: darken;
+   
+}
+
+.logo{
+    width: 14%;
+}
+.btn{
+    padding: 7px 17px;
+    color: #ffff;
+    background-color: #e50914;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius:4px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.nav{
+    padding-top: 5px;
+    padding-left: 2vh;
+    padding-right: 5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    flex: center;
+   color: #ffff;
+   text-align: center;
+   margin-top: 8%;
+   
+   
+   
+   
+} 
+.content h1{
+    font-size: 55px;
+    font-weight: 700;
+
+}
+.content h3{
+    font-size:26px;
+    font-weight: 400;
+    margin-top: 1%;
+    margin-left:-1% ;
+}
+ p{
+    font-size: 19.2px;
+    font-weight: 400;
+    margin-top: 2%;
+}
+.mail{
+    width: 48%;
+    height: fit-content;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 26%;
+    margin-top: 1%;   
+}
+.mail input{
+    outline: none;
+    border: none;
+    padding: 5px 9px;
+    size: 1rem;
+    color: rgb(140, 140, 140);
+    font-size: 16px;
+    font-weight: 400px;
+}
+.mail a{
+    height: fit-content;
+    background-color: #e50914;
+    color: #ffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.main{
+    height:300px ;
+    background-color: black;
+    background-attachment: scroll;
+    border-top: 8px solid #222;
+    padding: 70px 45px;
+    
+    display: flex;
+    justify-content: space-between;
+
+        
+}
+.content2 h1{
+    position: relative;
+    left: 200px;
+    top: 45px;
+    color: #ffff;
+    font-size: 50px;
+    font-weight:700;
+}
+ .content2 h3{
+    color: #ffff;
+    font-size: 26px;
+    font-weight: 400;
+    position: relative;
+    left: 200px;
+    top: 3px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.imgg{
+    position: relative;
+   bottom: 70px;
+   right: 175px;
+   height: 380px;
+  }
+
+.main2{
+    height:300px ;
+    background-color: black;
+    background-attachment: scroll;
+    border-top: 8px solid #222;
+    padding: 70px 45px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.img2{
+    height: 300px;
+    width: 450px;
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+    
+}
+.text h1{
+    color: #ffff;
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 200px;
+    margin-top: 20px;
+    
+}
+.text h3{
+    color: #ffff;
+    font-size: 26px;
+    font-weight: 400;
+}
+.main3{
+    height:240px ;
+    background-color: black;
+    background-attachment: scroll;
+    border-top: 8px solid #222;
+    padding: 10px 25px;
+    
+}
+.main3 h1{
+   color: #ffff;
+   font-size: 50px;
+   font-weight: 700;
+   margin-left: 180px;
+   margin-top: 40px;  
+}
+.main3 h3{
+    color: #ffff;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 180px;
+    
+}
+.main4{
+    height:300px ;
+    background-color: black;
+    background-attachment: scroll;
+    border-top: 8px solid #222;
+    padding: 70px 45px;
+}
+.main4 h1{
+    color: #ffff;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 690px;
+    margin-top: 40px;
+}
+.main4 h3{
+    color: #ffff;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 690px;
+    margin-top: 15px;
+}
+.main5{
+    height:750px ;
+    background-color: black;
+    background-attachment: scroll;
+    border-top: 8px solid #222;
+    padding: 70px 45px;
+}
+.main5 h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffff;
+    text-align: center;
+     
+}
+ul{
+    color: #ffff;
+    display: flex-start;
+    list-style: none;
+}
+.li1{
+    display: list-item;
+    color: #ffff;
+    font-size: 26px;
+    padding: 20px 25px;
+    background-color: #222;
+    position: relative;
+    left: 350px;
+    width: 740px;
+    margin-bottom: 10px;
+}
+.end{
+    color: rgb(255, 255, 255);
+    font-size: 19.2px;
+    font-weight: 200;
+   margin-left:430px ;
+}
+.mail{
+    width: 48%;
+    height: fit-content;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 26%;
+    margin-top: 1%;   
+}
+.mail input{
+    outline: none;
+    border: none;
+    padding: 5px 9px;
+    size: 1rem;
+    color: rgb(140, 140, 140);
+    font-size: 16px;
+    font-weight: 400px;
+}
+.mail a{
+    height: fit-content;
+    background-color: #e50914;
+    color: #ffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 22px;}
+    .main6{
+        height:150px ;
+    background-color: black;
+    background-attachment: scroll;
+    border-top: 8px solid #222;
+    padding: 70px 45px; 
+    }
+.last{
+    color: rgb(125, 125, 125);
+    font-size: 16px;
+    margin-top: 1px;
+    margin-left: 200px;
+}
+.last-step{
+    color: rgb(125, 125, 125);
+    font-size: 13px;
+    margin-top: 1px;
+    margin-left: 50px;
+   justify-content: space-around;
+   display: flex;
+   
+}
